@@ -48,7 +48,7 @@ export default class extends React.Component {
     if (this.state.result) {
       return (
         <div>
-          <h1>Response is completed</h1>
+          <h1>Booking is completed</h1>
           <p>Server returns {this.state.result}</p>
         </div>
       );
