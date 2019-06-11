@@ -1,12 +1,18 @@
-import React from 'react';
+import React from "react";
+import PriceForm from "./PriceForm.js";
 
-import './style.scss';
+import "./style.scss";
 
 export class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
-    render() {
-        return (
-            <h1>Your coding starts here</h1>
-        )
-    }
+  render() {
+    return (
+      <div className="app">
+        <PriceForm></PriceForm>
+      </div>
+    );
+  }
 }
